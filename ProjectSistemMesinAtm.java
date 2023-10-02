@@ -46,8 +46,9 @@ public class ProjectSistemMesinAtm {
                     System.exit(0);
                 default:
                     System.out.println("Pilihan tidak valid. Silakan pilih menu yang benar.");
+            sc.close();
+                }
+            
             }
-        sc.close();
-        }
     }
 }
