@@ -5,10 +5,9 @@ public static void main(String[] args) {
     Scanner sc16 = new Scanner(System.in);
     System.out.print("Masukan angka: ");
     int angka = sc16.nextInt();
-    if (angka % 2 == 0)
-    System.out.println("Angka  "+angka+" bilangan genap");
-    else 
-    System.out.println("Angka "+angka+" bilangan ganjil");
+    String hasil;
+    hasil = (angka % 2 == 0) ? "Bilangan Genap" : "Bilangan Ganjil";
+    System.out.println(angka + " adalah " + hasil);
     sc16.close();
     }
 }
